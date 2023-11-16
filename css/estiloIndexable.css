@@ -1,0 +1,39 @@
+/*Combinación de estilos con espacios, Siempre y cuando sean hijos*/
+/*no puedo poner: .menu .li -> Estoy declarando que existe a estas clases*/
+/* o: .menu, li*/
+.menu li {
+  list-style: none;
+  /*elementos de forma horizontal*/
+  display: inline-block;
+  font: bold 14px sans-serif;
+  border: solid lightskyblue;
+  padding-inline: 80px;
+  margin: 21px;
+}
+.cabecera h1,
+h6 {
+  text-align: left;
+}
+.menu {
+  /*también podemos poner color en hexadecimal*/
+  background-color: #7033ff30;
+  /*Con el comando siguiente podemos color una alineación a cualquier elemento, no solo el texto*/
+
+  text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+body{
+    text-align: center;
+    background-color: lightcyan;
+}
+.agrupar{
+    border: 1px solid black;
+    background-color: white;
+    width: 900px;
+    margin: 15px auto;
+}
