@@ -7,13 +7,24 @@
   display: inline-block;
   font: bold 14px sans-serif;
   border: solid lightskyblue;
+<<<<<<< HEAD
   padding-inline: 80px;
   margin: 21px;
 }
+=======
+  padding-inline: 40px;
+  margin: 21px;
+}
+
+>>>>>>> 79c26cbe065017b70be25a99fbfea766ce7921f0
 .cabecera h1,
 h6 {
   text-align: left;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 79c26cbe065017b70be25a99fbfea766ce7921f0
 .menu {
   /*también podemos poner color en hexadecimal*/
   background-color: #7033ff30;
@@ -21,6 +32,7 @@ h6 {
 
   text-align: center;
 }
+<<<<<<< HEAD
 h1{
     font-size: 50px;
     font-weight: bold;
@@ -36,4 +48,79 @@ body{
     background-color: white;
     width: 900px;
     margin: 15px auto;
+=======
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+}
+
+body {
+  text-align: center;
+  /*background-color:rgba(89, 0, 255, 0.459);*/
+}
+
+.agrupar {
+  border: 1px solid black;
+  background-color: rgba(89, 0, 255, 0.459);
+  width: 900px;
+  margin: 10px auto;
+}
+
+.cabecera {
+  background-color: rgba(255, 0, 255, 0.267);
+  border: 4px solid #faafca;
+  border-style: groove;
+  padding: 20px;
+}
+
+.seccion {
+  /*Posiciona elementes en otros elementos con una referencia*/
+  float: left;
+  width: 600px;
+  margin: 10px
+}
+
+article {
+  background: rgba(15, 87, 221, 0.562);
+  border: 1px solid blue;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+time {
+  color: white;
+
+}
+
+footer h5 {
+  text-align: right;
+}
+
+#idReferencias {
+  width: 200px;
+  float: right;
+  margin: 20px 0px;
+  border: 1px solid blue;
+  margin-right: 50px;
+
+}
+
+.piePagina {
+  clear: both;
+}
+
+#idReferencias blockquote{
+  border: 1px solid green;
+  padding: 10px;
+  background-color: #478FE6;
+  margin-bottom: 30px;
+}
+img{
+  width: 250px;
+  height: 250px;
+  margin: 20px auto;
+>>>>>>> 79c26cbe065017b70be25a99fbfea766ce7921f0
 }
