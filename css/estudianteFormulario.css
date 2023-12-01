@@ -54,11 +54,16 @@ button{
     color: white;
     border-color: #bde0fe;
     height: 50px;
-    width: 70px;
+    width: 90px;
     font-size: 17px;
     margin-bottom: 20px;
-    margin: 0px 130px;
+    /*margin: 0px 130px;*/
+    /*text-align: center;*/
 
+}
+.btnSave{
+  text-align: center;
+  width: 100%;
 }
 header{
     text-align: center;

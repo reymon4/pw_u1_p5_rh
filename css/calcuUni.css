@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator{
+    display: grid;
+    /*grid-template-columns: 70px 70px 70px 70px 70px;*/
+    /*grid-template-columns:100px repeat(4, 70px);*/
+    grid-template-columns:repeat(4, 70px);
+    grid-template-rows:150px repeat(4, 80px) 50px;
+    background-color: skyblue;
+    padding: 15px;
+    border-radius: 30px;
+    /*horizontal, vertical, difuminado, tamaño*/
+    box-shadow: 10px 15px 30px 5px #a2d2ff;
+}
+.display{
+    /*Vamos a hacer que ocupe el número de columnas de la calculadora*/
+    grid-column: span 4;
+    padding: 25px;
+    /*arriba, izq, abajo, der*/
+    margin: 10px 5px 10px 5px;
+    background-color: #bde0fe;
+    border-radius: 32px;
+    text-align: right;
+    box-shadow: 10px 10px 20px -10px;
+}
+button{
+    margin:5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #bde0fe;
+    box-shadow: 5px 5px 10px -5px black;
+
+}
