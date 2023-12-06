@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/calcuUni.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <h1>Calculator &#128223</h1>
-      </header>
-      <nav>
-        <section>
-          <div class="calculator">
-            <div class="display">Result</div>
-        <button>C</button>
-        <!--flecha izq-->
-        <button >&#129032;</button> 
-        <button >&#37;</button>
-        <button >7</button>
-        <button >8</button>
-        <button >9</button>
-        <!--mult-->
-        <button >&#10005;</button>
-        <button >4</button>
-        <button >5</button>
-        <button >6</button>
-        <button >-</button>
-        <button >1</button>
-        <button >2</button>
-        <button >3</button>
-        <button >+</button>
-        <button >0</button>
-        <button >.</button>
-        <!--igual-->
-        <button >&#61;</button>
-    </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/calcuUni.css" />
+  <script src="../js/funcionalidad.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Calculator &#128223</h1>
+    </header>
+    <nav>
+      <section>
+        <div class="calculator">
+          <div class="display"><label id="idResultado" for=""></label></div>
+
+          <button id="idC" class="btn_2" onclick="obtenerCantidad('R')">C</button>
+          <!--flecha izq-->
+          <button id="idFlecha" onclick="obtenerCantidad('R')">&#129032;</button>
+          <button id="idPorcentaje" onclick="obtenerCantidad('/')">&#37;</button>
+          <button id="idSiete" onclick="obtenerCantidad(7)">7</button>
+          <button id="idOcho" onclick="obtenerCantidad(8)">8</button>
+          <button id="idNueve" onclick="obtenerCantidad(9)"> 9</button>
+          <!--mult-->
+          <button id="idX" onclick="obtenerCantidad('*')">&#10005;</button>
+          <button id="idCuatro" onclick="obtenerCantidad(4)">4</button>
+          <button id="idCinco" onclick="obtenerCantidad(5)">5</button>
+          <button id="idSeis" onclick="obtenerCantidad(6)">6</button>
+          <button id="idMenos" onclick="obtenerCantidad('-')">-</button>
+          <button id="idUno" onclick="obtenerCantidad(1)">1</button>
+          <button id="idDos" onclick="obtenerCantidad(2)">2</button>
+          <button  id="idTres" onclick="obtenerCantidad(3)">3</button>
+          <button id="idMas" onclick="obtenerCantidad('+')">+</button>
+          <button id="idCero" class="btn_2" onclick="obtenerCantidad(0)">0</button>
+          <button id="idPunto" onclick="obtenerCantidad('.')">.</button>
+           <!--igual-->
+          <button id="idIgual" onclick="obtenerCantidad('=')">&#61;</button>
+
+        </div>
   </div>
   </section>
   </nav>
-    <nav></nav>
-    <aside></aside>
-    <footer>All rights reserved KingBat &#169 &#129297</footer>
-  </body>
+  <nav></nav>
+  <aside></aside>
+  <footer>All rights reserved KingBat &#169 &#129297</footer>
+</body>
+
 </html>

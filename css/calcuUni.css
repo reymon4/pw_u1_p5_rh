@@ -36,3 +36,14 @@ button{
     box-shadow: 5px 5px 10px -5px black;
 
 }
+button:active{
+    background: rgb(99, 221, 230);
+}
+body{
+    background: #4b87c7;
+}
+
+*{
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
