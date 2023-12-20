@@ -1,0 +1,82 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+td,th{
+    background: skyblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+th{
+    background-color: rgb(99, 221, 230);
+}
+.id{
+    background-color: #4b87c7;
+}
+
+.form{
+    width: 350px;
+    height: 400px;
+    background: #4b87c7;
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 20px 10px rgb(99, 221, 230);
+    margin-bottom: 30px;
+}
+
+h2{
+    margin: 15px 0px;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #1A1831;
+    border-bottom:  3PX solid ;
+} 
+
+P:before{
+    content: attr(type);
+    display: block;
+    margin: 5px 0px;
+    color: #1A1831;
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid rgba(89, 0, 255, 0.459);
+    background: none;
+    
+}
+
+input:focus{
+    border: none;
+    border-bottom: 3px solid rgba(89, 0, 255, 0.459);
+   
+}
+
+
+
+.center{
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15;
+    background-color: rgba(89, 0, 255, 0.459);
+    color: white;
+}
+
+button:active{
+    background-color: rgba(89, 0, 255, 0.459);
+}
